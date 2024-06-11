@@ -14,14 +14,14 @@ app.get("/", (req, res) => {
   const foodData = [
     {
       name: "Boiled Egg",
-      price: 10,
+      price: 60,
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
       image: "/images/egg.png",
       type: "breakfast",
     },
     {
       name: "RAMEN",
-      price: 25,
+      price: 75,
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
       image: "/images/ramen.png",
       type: "lunch",
